@@ -1,0 +1,27 @@
+# A COMMAND CONFIG:
+
+```javascript
+module.exports = {
+  config: {
+    name: "",
+    aliases: [],
+    version: "1.0.0",
+    author: "",
+    countDown: 10,
+    onlyDev: true,//if only developer can use it
+    shortDescription: {
+      en: "",
+      ar: ""
+    },
+    guide: {
+      en: "",
+      ar: ""
+    },
+    role: 0
+  }
+};
+```
+
+# author:
+### Facebook.Com/ProArCoder
+## This source can run GoatBot-v2 commands (90% of cmds expect cmds that uses driveApi) without any issue 

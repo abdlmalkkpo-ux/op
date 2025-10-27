@@ -1,7 +1,7 @@
 const { colors } = require('./colors.js');
 const moment = require("moment-timezone");
 const characters = '';
-const getCurrentTime = () => colors.gray(moment().tz("Africa/Algiers").format("HH:mm:ss DD/MM/YYYY"));
+//const getCurrentTime = () => colors.gray(moment().tz("Africa/Algiers").format("HH:mm:ss DD/MM/YYYY"));
 
 function logError(prefix, message) {
 	if (message === undefined) {
